@@ -50,7 +50,7 @@ const worker = new Worker(URL.createObjectURL(blob))
 const run = async () => { 
     const total = (10 ** 6);
     let coprimeCounter = 0;
-    const chunkSize = 10 ** 7;
+    const chunkSize = 10 ** 6;
 
     for(let i = 0; i < total; i += chunkSize){
         const end = Math.min(i + chunkSize, total);
