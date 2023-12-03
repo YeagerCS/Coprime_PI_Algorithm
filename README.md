@@ -1,4 +1,4 @@
-# Coprime_PI_Algorithm
+# Coprime PI Algorithm
 
 ## Description
 This is an algorithm that calculates π based on probability.  
