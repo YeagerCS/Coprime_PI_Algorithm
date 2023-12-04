@@ -16,7 +16,7 @@ x will just be the probability which was evaluated by iterating a for loop n tim
 ```
 After counting the coprimes we evaluate pi:
 ```js
-return Math.sqrt(6 / (coprimes / totalnumbers ))
+return Math.sqrt(6 / (coprimes / n ))
 ```
 
 ## More
